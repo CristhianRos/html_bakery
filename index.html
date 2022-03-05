@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
     <header id="inicio">
-        <nav class="header header__container"> 
+        <nav class="header header__container">
             <div class="logo__header">
-            <img src="#" alt="Rosales">
+                <img src="#" alt="Rosales">
             </div>
             <div class="header__links">
-               <li><a href="#">Postres</a></li> 
-               <li><a href="#">Accesorios </a></li> 
-               <li><a href="#">Acerca de</a></li> 
-               <li><a href="#">Contacto</a></li>
-               <li><img src="img/shopping-cart.png"></li> 
+                <li><a href="#">Postres</a></li>
+                <li><a href="#">Accesorios </a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><img src="img/shopping-cart.png"></li>
             </div>
         </nav>
     </header>
@@ -30,48 +32,91 @@
     <main>
         <h1>Media Luna, Panaderia</h1>
         <article>Los mejores postres Terranos, a la vuelta de la Galaxia. ordena y
-            disfruta nuestra variedad de pastelitos 100% Terranos, visitanos en: RA 
+            disfruta nuestra variedad de pastelitos 100% Terranos, visitanos en: RA
             0h 42m 44s | Dec +41° 16′ 9″ o en nuestra nueva sucursal Kepler-1649c.<br>
             Panaderia Media Luna "El calor del Sol, en una mordida"
         </article>
     </main>
-    <div class="main">
-        <div class="c1">
-            <img src="img/pan blanco.png" class="imgs">
-            <select name="concha" id="concha">
-            <option value="0">Seleccionar</option>
-            <option value="1">Concha Blanca</option>
-            <option value="2">Concha de Chocolate</option>
-            <option value="3">Concha de Fresa</option>
-            </select>
-            <label for="price">30 BC</label>
+    <section class="categories">
+        <div class="category-head ">
+            <h1 class="category-heading ">
+                Popular en la Tierra
+            </h1>
+            <a href="#" class="view-all">Ver todo</a>
         </div>
-        <div class="c2">
-            <img src="/img/baguette.png" class="imgs1">
-            Baguette
-            <label for="price">80 BC</label>
+        <div class="items footer-width-breaks">
+            <div class="item-card">
+                <figure class="item-img-wrapper">
+                    <img src="img/pan blanco.webp" alt="" class="item-img">
+                </figure>
+                <p class="item-name">
+                    <a href="">Concha</a>
+                </p>
+                <select class="item-stock">
+                    <option value="0">Seleccionar</option>
+                    <option value="1">Chocolate</option>
+                    <option value="2">Fresa</option>
+                    <option value="3">Vainilla</option>
+                    <option value="4">Cocoa</option>
+                </select>
+                <select class="item-stock">
+                    <option value="0">Adicional</option>
+                    <option value="1">Reyeno de Manjar</option>
+                    <option value="2">Chispas de Chocolate</option>
+                    <option value="3">Chispas de colores</option>
+                    <option value="4">Nutella</option>
+                    <option value="5">Dulce de Leche</option>
+                </select>
+                <h3 class="item-location">
+                    de : Mexico / Japon
+                </h3>
+                <div class="item-controls">
+                    <div class="item-add-btn">+</div>
+                    <div class="item-add-btn">-</div>
+                    <p class="item-price">
+                        <spam class="real-price">$230</spam>
+
+                    </p>
+                </div>
+            </div>
+            <div class="item-card">
+                <figure class="item-img-wrapper">
+                    <img src="img/baguette.webp" alt="" class="item-img">
+                </figure>
+                <p class="item-name">
+                    <a href="">Baguette</a>
+                </p>
+                <select class="item-stock">
+                    <option value="0">Elige tu favorito</option>
+                    <option value="1">Sin Preparar</option>
+                    <option value="2">Estilo Vietnamita</option>
+                    <option value="3">Con Peperoni</option>
+                    <option value="4">Huevo y Queso</option>
+                </select>
+                <select class="item-stock">
+                    <option value="0">Adicional</option>
+                    <option value="1">Porción de Queso</option>
+                    <option value="2">Jamon</option>
+                    <option value="3">Cebolla</option>
+                </select>
+                <h3 class="item-location">
+                    de : Francia
+                </h3>
+                <div class="item-controls">
+                    <div class="item-add-btn">+</div>
+                    <div class="item-add-btn">-</div>
+                    <p class="item-price">
+                        <spam class="real-price">$2,440</spam>
+                    </p>
+                </div>
+            </div>
+
         </div>
-        <div class="c3">
-            
-        </div>
-        <div class="c4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam 
-            neque similique nostrum quod? Eius possimus quas reprehenderit obcaecati 
-            exercitationem eveniet.
-        </div>
-        <div class="c5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam 
-            neque similique nostrum quod? Eius possimus quas reprehenderit obcaecati 
-            exercitationem eveniet.
-        </div>
-        <div class="c6">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam 
-            neque similique nostrum quod? Eius possimus quas reprehenderit obcaecati 
-            exercitationem eveniet.
-        </div>
-    </div>
+
+    </section>
 
     <footer></footer>
 
 </body>
+
 </html>
