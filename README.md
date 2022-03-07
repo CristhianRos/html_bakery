@@ -1,5 +1,5 @@
 # Mision_2_FrontEnd-LX
-![alt text] (https://github.com/CristhianRos/Mision_2_FrontEnd-LX/blob/main/Capturas/logo.svg?raw=true)
+![Cat] (https://github.com/CristhianRos/Mision_2_FrontEnd-LX/blob/main/Capturas/logo.svg)
 ![image text] (https://github.com/CristhianRos/Mision_2_FrontEnd-LX/blob/main/Capturas/index.PNG?raw=true)
 ![ScreenShot] (https://github.com/CristhianRos/Mision_2_FrontEnd-LX/blob/main/Capturas/pedido-formulario-cliente.PNG)
 ![Image text] (https://github.com/CristhianRos/Mision_2_FrontEnd-LX/blob/main/Capturas/vistaChef.PNG?raw=true)
