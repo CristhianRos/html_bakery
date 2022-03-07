@@ -1,1 +1,2 @@
-# Mision_2_FrontEnd-LX
+# Mision 2 FrontEnd LX
+![alt](Capturas/logo.svg)
